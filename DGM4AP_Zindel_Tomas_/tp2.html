@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRIDIS-Landing Page</title>
+    <link rel="stylesheet" href="tp2css.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+
+</head>
+<body> 
+    <header id="encabezado">
+    <nav>
+        <a href="tp2.html">Inicio</a>
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+        <a href="FAQ.html">FAQ</a>
+        <button id="registro">Registrarse</button>
+        <button id="Iniciar">Iniciar Sesion</button>
+        <div><img src="img/VIRIDISLOGO.svg" alt="ViridisLogo"></div>
+    </nav>
+</header>
+
+<main>
+    <section id="Descripcion">
+        <h1>Conecta con lo natural, compra responsable</h1>
+        <p><strong>¿Te importa el planeta?</strong> A nosotros también. Por eso creamos esta app, para que encontrar productos<strong> ecológicos y sostenibles</strong> sea tan fácil como un par de clics. Aquí puedes descubrir cosas que cuidan de ti y del medio ambiente, hechas con amor y conciencia.
+        Cada compra que haces apoya a pequeños productores y ayuda a construir un futuro más verde.</p>
+        <div id="celus">
+            <img src="img/MOCKUPSDISEÑOINTERACTIVO.png" alt="celusmockup">
+        </div>    
+    <div id="botonesapp">
+        <a href="https://play.google.com/store/apps?hl=es_AR"><img src="img/googleplay.svg" alt="googleplay"></a>
+        <a href="https://www.apple.com/la/app-store/"><img src="img/appstore.svg" alt="appstore"></a>
+    </div>
+    </section>
+
+
+    <h2 id="titulocarrusel">Conoce algunos productos que podes encontrar en nuestra app</h2>
+    <br>
+    <section id="carrusel" class="owl-carousel">
+            <img src="img/Creatina1.png" alt="producto1">
+            <img src="img/almendra.png" alt="producto2">
+            <img src="img/bolsaecologica.png" alt="producto3">
+            <img src="img/actron.png" alt="producto4">
+            <img src="img/zapas.png" alt="producto5">
+            <img src="img/mamadera.png" alt="producto6">
+    </section>
+<br>
+<br>
+    <section id="beneficiosclaves">
+    <div id="eco1">
+        <img src="img/eco1.svg" alt="eco1">
+        <p>Compra desde la app con la misma <strong>confianza</strong> que si compras presencialmente.</p>
+    </div>
+
+    <div id="eco2">
+        <img src="img/eco2.svg" alt="eco2">
+        <p>Compra y vende de manera segura con la tranquilidad de saber que todos los proveedores <strong>firman un acuerdo</strong> de ventas de productos ecológicos con info completa de los materiales utilizados.</p>
+    </div>
+
+    <div id="eco3">
+        <img src="img/eco3.svg" alt="eco3">
+        <p>Virtualidad de tener propio medio de envío de los productos, con transporte que respeta la <strong>ecología</strong>.</p>
+    </div>
+    </section>
+</main>
+
+<footer id="pie">
+    <div id="logos">
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img src="img/iconogmail.svg" alt="gmail" width="60px"></a>
+        <a href="https://www.facebook.com/"><img src="img/iconofacebook.svg" alt="facebooklogo" width="50px"></a>
+        <a href="https://www.instagram.com/"><img src="img/iconoinsta.svg" alt="insta" width="50px"></a>
+    </div>
+    
+    <div id="columnamedio">
+<p id="contacto">Contacto</p>
+<p>11 5427-3043</p>
+<p>viridis.eco@gmail.com</p></div>
+
+<div id="columnaderecha"><p>Copyright ©</p>
+<p>Terminos y Condiciones</p>
+<p>Politicas de Privacidad</p></div>
+</footer>
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+<script>$(document).ready(function()  {
+        $('#carrusel').owlCarousel({
+    items: 3,
+    dots: false,
+    autoplay: true,
+    loop: true,
+
+    });
+})
+</script>
+
+
+</body>
+</html>

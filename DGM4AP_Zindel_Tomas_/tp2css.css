@@ -1,0 +1,187 @@
+body{
+    background-color: #B5FCE7;
+    font-family: 'Poppins', sans-serif;
+    color: #077857;
+    
+}
+
+#encabezado{
+    background-color: #077857;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+#encabezado nav {
+    display: flex;
+    align-items: center;
+}
+
+#encabezado div img {
+    height: 50px;
+    margin-left: 700px;
+}
+
+#encabezado a {
+    color: #B5FCE7;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#encabezado a:hover {
+    text-decoration: underline;
+}
+
+#registro {
+    background-color: #B5FCE7;
+    color: #077857;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+}
+
+#Iniciar {
+    background-color: #077857;
+    color: #B5FCE7;
+    border: solid 2px #B5FCE7;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+}
+
+#Descripcion {
+    text-align: left;
+    padding: 100px 20px 40px;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 800px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#Descripcion h1 {
+    width: 1250px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #077857;
+    position: relative;
+}
+
+#celus img {
+    width: 800px;
+    position: relative;
+    left: 420px;
+    bottom: 450px;
+    align-items: center;
+}
+
+#botonesapp {
+    margin-top: -700px;
+    display: flex; /* Para alinear los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+#botonesapp img {
+    width: 250px;
+    height: 250px;
+}
+
+#titulocarrusel {
+    font-size: 30px;
+    text-align: center
+}
+
+#carrusel{
+    max-width: 70%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#carrusel img {
+    width: 300px;
+    height: 300px;
+}
+
+#beneficiosclaves {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: rgb(150, 250, 220);
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#eco1, #eco2, #eco3 {
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#eco1 img, #eco2 img, #eco3 img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#eco1 p, #eco2 p, #eco3 p {
+    font-size: 16px;
+    color: #077857;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+#pie {
+    background-color: #077857;
+    color: #B5FCE7;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacto {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#pie p {
+    margin: 5px 0;
+}
+
+#logos {
+    display: inline-block;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+#logos img {
+height: 45px;
+}
+

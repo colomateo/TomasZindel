@@ -1,0 +1,260 @@
+body{
+    background-color: #B5FCE7;
+    font-family: 'Poppins', sans-serif;
+    color: #077857;
+    
+}
+
+#encabezado{
+    background-color: #077857;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+#encabezado nav {
+    display: flex;
+    align-items: center;
+}
+
+#encabezado div img {
+    height: 50px;
+    margin-left: 700px;
+}
+
+#encabezado a {
+    color: #B5FCE7;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#encabezado a:hover {
+    text-decoration: underline;
+}
+
+#registro {
+    background-color: #B5FCE7;
+    color: #077857;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+}
+
+#Iniciar {
+    background-color: #077857;
+    color: #B5FCE7;
+    border: solid 2px #B5FCE7;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+}
+
+#textosvg{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#Descripcion {
+width: 290px;
+}
+
+#Descripcion h1 {
+    width: 250px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #077857;
+    position: relative;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+
+#opiniones{
+margin: auto;
+width: 80%;
+}
+
+
+#Opinion1 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion2 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion3 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion4 {
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion5 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion6 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion7 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion8 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion9 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#Opinion10 {
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    background-color: #000000af;
+    color: #B5FCE7;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#tituloempresas{
+display: flex;
+justify-content: center;
+}
+
+#patagonia{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#whole{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#ikea{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#pie {
+    background-color: #077857;
+    color: #B5FCE7;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacto {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#pie p {
+    margin: 5px 0;
+}
+
+#logos {
+    display: inline-block;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+#logos img {
+height: 45px;
+}
+
+
+
+

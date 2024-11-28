@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faq-Viridis</title>
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header id="encabezado">
+        <nav>
+            <a href="tp2.html">Inicio</a>
+            <a href="sobrenosotros.html">Sobre Nosotros</a>
+            <a href="FAQ.html">FAQ</a>
+            <button id="registro">Registrarse</button>
+            <button id="Iniciar">Iniciar Sesion</button>
+            <div><img src="img/VIRIDISLOGO.svg" alt="ViridisLogo"></div>
+        </nav>
+    </header>
+    
+    <h2 id="cajatextoh2">Tus primeros pasos adentrándote en Viridis.</h2>
+    <br>
+
+
+<div id="mockups" class="owl-carousel">
+    <img src="img/VIRIDISPRINCIPIO.png" alt="principio">
+    <img src="img/INICIO.png" alt="inicio">
+    <img src="img/BUSCAR.png" alt="buscar">
+    <img src="img/BUSCAR2.png" alt="buscar2">
+    <img src="img/PRODUCTO.png" alt="producto">
+    <img src="img/CARRITO.png" alt="carrito">
+    <img src="img/PAGO.png" alt="pago">
+    <img src="img/ENVIO1.png" alt="envio">
+    <img src="img/ENVIO2.png" alt="envio2">
+    <img src="img/FIN.png" alt="fin">
+</div>
+<br>
+
+
+    <section id="preguntasfrecuentes">    
+        <h2>Preguntas Frecuentes</h2>
+
+        <h3 id="pregunta1">¿Qué es Viridis?</h3>
+        <p id="respuestas">Viridis es una plataforma que conecta a compradores y vendedores interesados en productos ecológicos, sostenibles y respetuosos con el medio ambiente. A través de nuestra app, puedes encontrar una gran variedad de productos que apoyan un estilo de vida más verde.</p>
+
+        <h3 id="pregunta2">¿Qué tipo de productos puedo encontrar en Viridis?</h3>
+        <p id="respuestas">En Viridis encontrarás alimentos orgánicos, productos de cuidado personal sin químicos dañinos, ropa ecológica, utensilios reutilizables, productos sin plásticos y mucho más. Todos los productos están seleccionados para minimizar el impacto ambiental.</p>
+
+        <h3 id="pregunta3">¿Es necesario registrarse para usar la app?</h3>
+        <p id="respuestas">Sí, necesitas registrarte para realizar compras, vender productos o interactuar con otros usuarios en la plataforma. El registro es rápido y gratuito.</p>
+
+        <h3 id="pregunta4">¿Cómo se asegura la calidad de los productos ecológicos?</h3>
+        <p id="respuestas">Todos los vendedores deben cumplir con nuestras políticas de transparencia, proporcionando certificaciones (si las tienen) y detalles claros sobre el origen de sus productos. Además, los compradores pueden dejar reseñas para garantizar la calidad.</p>
+
+        <h3 id="pregunta5">¿Cómo puedo pagar mis compras?</h3>
+        <p id="respuestas">Puedes pagar mediante tarjeta de crédito, débito, transferencia bancaria o billeteras digitales. En algunos casos, también puedes acordar pagos en efectivo directamente con el vendedor para entregas presenciales.</p>
+
+        <h3 id="pregunta6">¿Cómo puedo vender mis productos en Viridis?</h3>
+        <p id="respuestas">Si eres productor o vendes productos ecológicos, puedes registrarte como vendedor. Solo necesitas crear tu perfil, subir fotos e información detallada de tus productos, y una vez aprobados, estarán disponibles en la plataforma.</p>
+
+        <h3 id="pregunta7">¿Es seguro usar la app y realizar transacciones?</h3>
+        <p id="respuestas">Sí, Viridis utiliza tecnología de encriptación avanzada para proteger tus datos personales y financieros. Además, monitoreamos la actividad en la plataforma para garantizar un entorno seguro para compradores y vendedores.</p>
+
+        <h3 id="pregunta8">¿Qué hago si tengo problemas o necesito ayuda?</h3>
+        <p id="respuestas">Si tienes problemas técnicos, con un producto o un usuario, puedes comunicarte con nuestro equipo de soporte directamente desde la app en la sección "Ayuda" o enviando un correo a soporte@viridis.com.</p>
+    </section>
+<br>
+    <p id="conocer">¡Nos encantaría conocer tu opinión!</p>
+    <br>
+    <div id="boton-container">
+        <a href="https://play.google.com/store/games?hl=es_419" id="boton-app">Dejanos tu comentario</a>
+    </div>
+
+    <footer id="pie">
+        <div id="logos">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img src="img/iconogmail.svg" alt="gmail" width="60px"></a>
+            <a href="https://www.facebook.com/"><img src="img/iconofacebook.svg" alt="facebooklogo" width="50px"></a>
+            <a href="https://www.instagram.com/"><img src="img/iconoinsta.svg" alt="insta" width="50px"></a>
+        </div>
+        
+        <div id="columnamedio">
+    <p id="contacto">Contacto</p>
+    <p>11 5427-3043</p>
+    <p>viridis.eco@gmail.com</p></div>
+    
+    <div id="columnaderecha"><p>Copyright ©</p>
+    <p>Terminos y Condiciones</p>
+    <p>Politicas de Privacidad</p></div>
+    </footer>
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    
+
+    <script>
+        $(document).ready(function() {
+            $('#pregunta1').on('click', function() {
+            $(this).next('#respuestas').slideToggle();
+            });
+        });
+    </script>
+
+<script>
+    $(document).ready(function() {
+        $('#pregunta2').on('click', function() {
+        $(this).next('#respuestas').slideToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#pregunta3').on('click', function() {
+        $(this).next('#respuestas').slideToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#pregunta4').on('click', function() {
+        $(this).next('#respuestas').slideToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#pregunta5').on('click', function() {
+        $(this).next('#respuestas').slideToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#pregunta6').on('click', function() {
+        $(this).next('#respuestas').slideToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#pregunta7').on('click', function() {
+        $(this).next('#respuestas').slideToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#pregunta8').on('click', function() {
+        $(this).next('#respuestas').slideToggle();
+        });
+    });
+</script>
+
+<script>$(document).ready(function()  {
+    $('#mockups').owlCarousel({
+    items: 3,
+    dots: false,
+    autoplay: true,
+    loop: true,
+    center: true,
+    });
+})
+</script>
+
+
+</body>
+</html>
